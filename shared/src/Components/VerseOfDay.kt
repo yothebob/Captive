@@ -115,6 +115,7 @@ fun VerseOfDayBox() {
             ) {
                 Text(
                     text = verse.ver,
+                    fontStyle = FontStyle.Italic,
                     modifier = Modifier
                         .fillMaxSize()
                         .background(MaterialTheme.colorScheme.secondary.copy(alpha = 0.5F))

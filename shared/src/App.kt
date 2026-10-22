@@ -59,9 +59,9 @@ fun App() {
             ),
             bodyLarge = MaterialTheme.typography.bodyLarge.copy(fontFamily = MeriendaFamily()),
             bodyMedium = MaterialTheme.typography.bodyMedium.copy(fontFamily = MeriendaFamily()),
-            bodySmall = MaterialTheme.typography.bodyMedium.copy(fontFamily = MeriendaFamily()),)
+            bodySmall = MaterialTheme.typography.bodySmall.copy(fontFamily = MeriendaFamily()),)
     ) {
-        Landing()
+        appRoot()
     }
 }
 

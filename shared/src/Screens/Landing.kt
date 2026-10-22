@@ -22,7 +22,7 @@ import evry.thought.captive.resources.massimiliano_morosinotto
 import org.jetbrains.compose.resources.painterResource
 
 @Composable
-fun Landing() {
+fun Landing(toCapture: () -> Boolean) {
     Scaffold(
         modifier = Modifier,
     ) { innerPadding ->
@@ -47,7 +47,7 @@ fun Landing() {
                 VerseOfDayBox()
             }
             Spacer(modifier = Modifier.height(60.dp))
-            Capture()
+            Capture(toCapture)
             // TODO: Encourage a friend
             // TODO: here an about screen thing with a ? icon
         }

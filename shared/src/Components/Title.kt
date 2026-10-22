@@ -9,6 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
@@ -18,6 +19,6 @@ fun Title() {
         Text("CAPTIVE", style = MaterialTheme.typography.displayLarge, color = Color.White, fontSize = 70.sp)
     }
     Row(horizontalArrangement = Arrangement.Start) {
-        Text("... Bring into captivity every thought to the obedience of Christ.", style = MaterialTheme.typography.bodySmall, fontStyle = FontStyle.Italic, color = Color.White)
+        Text("... Bring into captivity every thought to the obedience of Christ.", textAlign = TextAlign.Center, style = MaterialTheme.typography.bodySmall, fontStyle = FontStyle.Italic, color = Color.White)
     }
 }
